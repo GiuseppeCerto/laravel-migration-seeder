@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('Stazione di arrivo', 100);
             $table->tinyInteger('Orario di partenza');
             $table->tinyInteger('Orario di arrivo');
-            $table->tinyInteger('Orario di partenza');
             $table->tinyInteger('codice treno');
             $table->tinyInteger('Numero carrozze');
             $table->tinyInteger('In_orario')->unsigned()->default(1);
