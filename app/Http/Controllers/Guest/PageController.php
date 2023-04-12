@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class PageController extends Controller{
     public function homepage(){
 
-        $trains = Train::all();
+        $trains = Train::where('created_at' >= '2023-04-05');
     
 
         $data = [
