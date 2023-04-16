@@ -7,7 +7,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Faker\Generator as Faker;
 
-class TrainSeeder extends Seeder
+class TrainSeeder extends Seeder 
 
 {
     /**
